@@ -1,0 +1,29 @@
+{
+  "name": "lotsofpixels/bottomdescription",
+  "description": "Add an extra description field on catgory page",
+  "require": {
+    "php": "~7.2.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "LotsofPixels,
+      "email": "rene@lotsofpixels.nl",
+      "homepage": "http://www.lotsofpixels.nl",
+      "role": "Development Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "LotsofPixels\\BottomDescription\\": ""
+    }
+  }
+}
